@@ -82,7 +82,7 @@ const SignUp = () => {
           <div className={styles.inputContainer}>
             <LockIcon className={styles.icon} />
             <input
-              type={!showPassword ? "password" : "text"}
+              type={!showConfirmPassword ? "password" : "text"}
               placeholder="Enter password..."
               className={[styles.passwordInput,styles.inputBox].join("")}
               value={password}
